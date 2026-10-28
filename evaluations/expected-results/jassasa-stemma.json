@@ -1,0 +1,27 @@
+{
+  "family_id": "jassasah-tamim-family",
+  "family_status": "cl_detected",
+  "expected_cl": "amir-al-shabi",
+  "cl_death_ah": 104,
+  "spider_line": ["fatimah-bint-qays", "amir-al-shabi"],
+  "expected_pcls": [
+    "abd-allah-ibn-buraydah",
+    "ghaylan-ibn-jarir",
+    "sayyar-abu-al-hakam",
+    "ismail-ibn-abi-khalid",
+    "mujalid-ibn-said"
+  ],
+  "min_fan_out": 4,
+  "corroborating_collectors": [
+    "muslim-ibn-al-hajjaj",
+    "abu-dawud-al-sijistani",
+    "al-tirmidhi",
+    "ibn-majah",
+    "ahmad-ibn-hanbal"
+  ],
+  "epistemic_verdict": {
+    "historical_horizon": "Late 1st century AH (circa 80-100 AH)",
+    "pre_cl_status": "Historically unverified single strand via Fatimah bint Qays",
+    "textual_variance": "Core Tamim al-Dari island narrative shared; minor variation in introductory setting and phrasing of al-Jassasah description."
+  }
+}

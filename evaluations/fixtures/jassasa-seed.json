@@ -1,0 +1,232 @@
+{
+  "schema_version": 1,
+  "imported_at": "2026-10-26T21:00:00+05:00",
+  "import_id": "jassasah-cross-collection-core-20261026",
+  "source_batch_ref": "Primary-source collation documented in jassasah-riwaq-research.md; each variant carries its own collection locator.",
+  "records": [
+    {
+      "hadith_id": "jassasah-core-report",
+      "family_id": "jassasah-tamim-family",
+      "title": "Hadith al-Jassasah (Fāṭimah bint Qays transmission family)",
+      "source_ref": {
+        "collection": "Cross-collection primary-source collation",
+        "source_type": "url",
+        "source_locator": "See each variant's provenance; primary witness index: https://sunnah.com/muslim:2942a",
+        "ingested_at": "2026-10-26T21:00:00+05:00",
+        "parser_version": "manual-transcription-1",
+        "checksum": null
+      },
+      "variants": [
+        {
+          "variant_id": "jass-muslim-2942a-awarith-route",
+          "isnad_chain": ["fatimah-bint-qays", "amir-al-shabi", "abd-allah-ibn-buraydah", "husayn-ibn-dhakwan", "abd-al-warith-ibn-said", "abd-al-samad-ibn-abd-al-warith", "abd-al-warith-ibn-abd-al-samad", "muslim-ibn-al-hajjaj"],
+          "isnad_raw": "حدثنا عبد الوارث بن عبد الصمد بن عبد الوارث، وحجاج بن الشاعر، كلاهما عن عبد الصمد - واللفظ لعبد الوارث بن عبد الصمد - حدثنا أبي عن جدي عن الحسين بن ذكوان، حدثنا ابن بريدة، حدثني عامر بن شراحيل الشعبي، أنه سأل فاطمة بنت قيس",
+          "matn_raw": "فقال النبي صلى الله عليه وسلم: إني والله ما جمعتكم لرغبة ولا لرهبة ولكن جمعتكم لأن تميما الداري كان رجلا نصرانيا فجاء فبايع وأسلم وحدثني حديثا وافق الذي كنت أحدثكم عن مسيح الدجال. حدثني أنه ركب في سفينة بحرية مع ثلاثين رجلا من لخم وجذام... فلقيتهم دابة أهلب كثير الشعر... قالت أنا الجساسة... فإذا فيه أعظم إنسان رأيناه قط خلقا وأشده وثاقا... قال إني أنا المسيح... وإنه يوشك أن يؤذن لي في الخروج...",
+          "collector_note": "Primary long-form witness. Ellipses mark omitted intervening source text; collate the complete Arabic from the cited source before publication. Muslim also gives Hajjaj ibn al-Sha'ir as an alternate teacher into Abd al-Samad; represented as a separate graph path below.",
+          "provenance": {"printed_edition": "Sahih Muslim, Kitab al-Fitan, Bab Qissat al-Jassasah, 2942a", "transmission_path": "https://sunnah.com/muslim:2942a"}
+        },
+        {
+          "variant_id": "jass-muslim-2942a-hajjaj-route",
+          "isnad_chain": ["fatimah-bint-qays", "amir-al-shabi", "abd-allah-ibn-buraydah", "husayn-ibn-dhakwan", "abd-al-warith-ibn-said", "abd-al-samad-ibn-abd-al-warith", "hajjaj-ibn-al-shair", "muslim-ibn-al-hajjaj"],
+          "isnad_raw": "حدثنا حجاج بن الشاعر، عن عبد الصمد بن عبد الوارث، حدثنا أبي عن جدي عن الحسين بن ذكوان، حدثنا ابن بريدة، حدثني عامر بن شراحيل الشعبي، عن فاطمة بنت قيس",
+          "matn_raw": "إني والله ما جمعتكم لرغبة ولا لرهبة ولكن جمعتكم لأن تميما الداري كان رجلا نصرانيا فجاء فبايع وأسلم وحدثني حديثا وافق الذي كنت أحدثكم عن مسيح الدجال. حدثني أنه ركب في سفينة بحرية مع ثلاثين رجلا من لخم وجذام... فلقيتهم دابة أهلب كثير الشعر... قالت أنا الجساسة... فإذا فيه أعظم إنسان رأيناه قط خلقا وأشده وثاقا... قال إني أنا المسيح... وإنه يوشك أن يؤذن لي في الخروج...",
+          "collector_note": "Same lower transmission line and matn as the preceding variant; not an independent route below Abd al-Samad.",
+          "provenance": {"printed_edition": "Sahih Muslim, Kitab al-Fitan, Bab Qissat al-Jassasah, 2942a", "transmission_path": "https://sunnah.com/muslim:2942a"}
+        },
+        {
+          "variant_id": "jass-muslim-2942b-sayyar-route",
+          "isnad_chain": ["fatimah-bint-qays", "amir-al-shabi", "sayyar-abu-al-hakam", "qurra-ibn-khalid", "khalid-ibn-al-harith", "yahya-ibn-habib-al-harithi", "muslim-ibn-al-hajjaj"],
+          "isnad_raw": "حدثنا يحيى بن حبيب الحارثي، حدثنا خالد بن الحارث الهجيمي أبو عثمان، حدثنا قرة، حدثنا سيار أبو الحكم، حدثنا الشعبي، قال دخلنا على فاطمة بنت قيس ... وساق الحديث",
+          "matn_raw": "إن بني عم لتميم الداري ركبوا في البحر ... وقالت: فسمعت النبي صلى الله عليه وسلم وهو على المنبر يخطب ... فأهوى بمخصرته إلى الأرض وقال: هذه طيبة، يعني المدينة.",
+          "collector_note": "Muslim signals that the rest of the report is transmitted and adds the minbar gesture identifying Taybah as Medina. Preserve the kinsmen wording.",
+          "provenance": {"printed_edition": "Sahih Muslim, Kitab al-Fitan, Bab Qissat al-Jassasah, 2942b", "transmission_path": "https://sunnah.com/muslim:2942b"}
+        },
+        {
+          "variant_id": "jass-muslim-2942c-hulwani-route",
+          "isnad_chain": ["fatimah-bint-qays", "amir-al-shabi", "ghaylan-ibn-jarir", "jarir-ibn-hazim", "wahb-ibn-jarir", "hasan-ibn-ali-al-hulwani", "muslim-ibn-al-hajjaj"],
+          "isnad_raw": "حدثنا الحسن بن علي الحلواني وأحمد بن عثمان النوفلي، قالا حدثنا وهب بن جرير، حدثنا أبي، سمعت غيلان بن جرير يحدث عن الشعبي عن فاطمة بنت قيس",
+          "matn_raw": "قدم على رسول الله صلى الله عليه وسلم تميم الداري فأخبره أنه ركب البحر فتاهت به سفينته فسقط إلى جزيرة فخرج إليها يلتمس الماء فلقي إنسانا يجر شعره... ثم قال: أما إنه لو قد أذن لي في الخروج قد وطئت البلاد كلها غير طيبة. فأخرجه رسول الله صلى الله عليه وسلم إلى الناس فقال: هذه طيبة وذاك الدجال.",
+          "collector_note": "Abridged matn witness; source says the remainder follows the longer report. This variant represents Muslim's route through al-Hasan al-Hulwani into Wahb.",
+          "provenance": {"printed_edition": "Sahih Muslim, Kitab al-Fitan, Bab Qissat al-Jassasah, 2942c", "transmission_path": "https://sunnah.com/muslim:2942c"}
+        },
+        {
+          "variant_id": "jass-muslim-2942c-nawfali-route",
+          "isnad_chain": ["fatimah-bint-qays", "amir-al-shabi", "ghaylan-ibn-jarir", "jarir-ibn-hazim", "wahb-ibn-jarir", "ahmad-ibn-uthman-al-nawfali", "muslim-ibn-al-hajjaj"],
+          "isnad_raw": "حدثنا الحسن بن علي الحلواني وأحمد بن عثمان النوفلي، قالا حدثنا وهب بن جرير، حدثنا أبي، سمعت غيلان بن جرير يحدث عن الشعبي عن فاطمة بنت قيس",
+          "matn_raw": "قدم على رسول الله صلى الله عليه وسلم تميم الداري فأخبره أنه ركب البحر فتاهت به سفينته فسقط إلى جزيرة فخرج إليها يلتمس الماء فلقي إنسانا يجر شعره... ثم قال: أما إنه لو قد أذن لي في الخروج قد وطئت البلاد كلها غير طيبة. فأخرجه رسول الله صلى الله عليه وسلم إلى الناس فقال: هذه طيبة وذاك الدجال.",
+          "collector_note": "Second teacher of Muslim through Wahb; same lower line and matn as the preceding variant.",
+          "provenance": {"printed_edition": "Sahih Muslim, Kitab al-Fitan, Bab Qissat al-Jassasah, 2942c", "transmission_path": "https://sunnah.com/muslim:2942c"}
+        },
+        {
+          "variant_id": "jass-muslim-2942d-abu-zinad-route",
+          "isnad_chain": ["fatimah-bint-qays", "amir-al-shabi", "abu-al-zinad", "mughira-al-hizami", "yahya-ibn-bukayr", "abu-bakr-ibn-ishaq", "muslim-ibn-al-hajjaj"],
+          "isnad_raw": "حدثني أبو بكر بن إسحاق، حدثنا يحيى بن بكير، حدثنا المغيرة يعني الحزامي عن أبي الزناد عن الشعبي عن فاطمة بنت قيس",
+          "matn_raw": "أيها الناس حدثني تميم الداري أن أناسا من قومه كانوا في البحر في سفينة لهم فانكسرت بهم، فركب بعضهم على لوح من ألواح السفينة فخرجوا إلى جزيرة في البحر، وساق الحديث.",
+          "collector_note": "Abridged opening; preserves the shipwreck-and-plank reading and attributes the travelers to Tamim's people.",
+          "provenance": {"printed_edition": "Sahih Muslim, Kitab al-Fitan, Bab Qissat al-Jassasah, 2942d", "transmission_path": "https://sunnah.com/muslim:2942d"}
+        },
+        {
+          "variant_id": "jass-abudawud-4325-zuhri-route",
+          "isnad_chain": ["fatimah-bint-qays", "abu-salama-ibn-abd-al-rahman", "muhammad-al-zuhri", "muhammad-ibn-abd-al-rahman-ibn-abi-dhib", "uthman-ibn-abd-al-rahman", "al-nufayli", "abu-dawud"],
+          "isnad_raw": "حدثنا النفيلي، حدثنا عثمان بن عبد الرحمن، حدثنا ابن أبي ذئب، عن الزهري، عن أبي سلمة، عن فاطمة بنت قيس",
+          "matn_raw": "إنه حبسني حديث كان يحدثنيه تميم الداري عن رجل كان في جزيرة من جزائر البحر، فإذا أنا بامرأة تجر شعرها ... فإذا رجل يجر شعره مسلسل في الأغلال ... قلت من أنت؟ قال أنا الدجال. خرج نبي الأميين بعد؟ قلت نعم. قال أطاعوه أم عصوه؟ قلت بل أطاعوه. قال ذاك خير لهم.",
+          "collector_note": "Short report; do not fill its omitted questions or journey details from another witness. Its phrase 'from a man' is textually significant.",
+          "provenance": {"printed_edition": "Sunan Abi Dawud, Kitab al-Malahim, Bab fi khabar al-Jassasah, 4325", "transmission_path": "https://sunnah.com/abudawud:4325"}
+        },
+        {
+          "variant_id": "jass-abudawud-4326-husayn-route",
+          "isnad_chain": ["fatimah-bint-qays", "amir-al-shabi", "abd-allah-ibn-buraydah", "husayn-ibn-dhakwan", "abd-al-warith-ibn-said", "abd-al-samad-ibn-abd-al-warith", "hajjaj-ibn-abi-yacqub", "abu-dawud"],
+          "isnad_raw": "حدثنا حجاج بن أبي يعقوب، حدثنا عبد الصمد، حدثنا أبي قال سمعت حسينا المعلم، حدثنا عبد الله بن بريدة، حدثنا عامر بن شراحيل الشعبي، عن فاطمة بنت قيس",
+          "matn_raw": "إني ما جمعتكم لرهبة ولا رغبة، ولكن جمعتكم أن تميما الداري كان رجلا نصرانيا فجاء فبايع وأسلم ... ركب في سفينة بحرية مع ثلاثين رجلا من لخم وجذام ... فلقيتهم دابة أهلب كثيرة الشعر ... قال إني أنا المسيح وإنه يوشك أن يؤذن لي في الخروج ... وإنه في بحر الشام أو بحر اليمن لا بل من قبل المشرق.",
+          "collector_note": "Long route sharing the lower isnad with Muslim 2942a; the present source includes the eastward gesture.",
+          "provenance": {"printed_edition": "Sunan Abi Dawud, Kitab al-Malahim, Bab fi khabar al-Jassasah, 4326", "transmission_path": "https://sunnah.com/abudawud:4326"}
+        },
+        {
+          "variant_id": "jass-tirmidhi-2253-qatada-route",
+          "isnad_chain": ["fatimah-bint-qays", "amir-al-shabi", "qatada-ibn-diamah", "hisham-al-dastawai", "muadh-ibn-hisham", "muhammad-ibn-bashshar", "al-tirmidhi"],
+          "isnad_raw": "حدثنا محمد بن بشار، حدثنا معاذ بن هشام، حدثنا أبي، عن قتادة، عن الشعبي، عن فاطمة بنت قيس",
+          "matn_raw": "إن تميما الداري حدثني بحديث ففرحت فأحببت أن أحدثكم ... أن ناسا من أهل فلسطين ركبوا سفينة في البحر ... فإذا هم بدابة لباسه ناشرة شعرها ... أنا الجساسة ... أخبروني عن عين زغر وعن البحيرة وعن نخل بيسان الذي بين الأردن وفلسطين ... قال إنه الدجال وإنه يدخل الأمصار كلها إلا طيبة.",
+          "collector_note": "Compressed narrative; retains the order of regional questions and Tirmidhi's closing Taibah statement.",
+          "provenance": {"printed_edition": "Jami at-Tirmidhi, Abwab al-Fitan, Hadith of Tamim al-Dari about the Dajjal, 2253", "transmission_path": "https://sunnah.com/tirmidhi:2253"}
+        },
+        {
+          "variant_id": "jass-ibnmajah-4074-mujalid-route",
+          "isnad_chain": ["fatimah-bint-qays", "amir-al-shabi", "mujalid-ibn-said", "ismail-ibn-abi-khalid", "abd-allah-ibn-numayr", "muhammad-ibn-abd-allah-ibn-numayr", "ibn-majah"],
+          "isnad_raw": "حدثنا محمد بن عبد الله بن نمير، حدثنا أبي، حدثنا إسماعيل بن أبي خالد، عن مجالد، عن الشعبي، عن فاطمة بنت قيس",
+          "matn_raw": "ولكن تميما الداري أتاني فأخبرني خبرا منعني القيلولة من الفرح وقرة العين ... ألا إن ابن عم لتميم الداري أخبرني أن الريح ألجأتهم إلى جزيرة لا يعرفونها ... فإذا هم بشيء أهدب أسود كثير الشعر قالوا له ما أنت؟ قال أنا الجساسة ... فما فعل هذا الرجل الذي خرج فيكم؟ ... فما فعلت عين زغر؟ ... فما فعل نخل بين عمان وبيسان؟ ... فما فعلت بحيرة الطبرية؟",
+          "collector_note": "Distinctive cousin-of-Tamim attribution. This is a matn witness, not a license to silently harmonize the reporter with other routes.",
+          "provenance": {"printed_edition": "Sunan Ibn Majah, Kitab al-Fitan, 4074", "transmission_path": "https://sunnah.com/ibnmajah/36"}
+        },
+        {
+          "variant_id": "jass-abudawud-4327-mujalid-sadran-route",
+          "isnad_chain": ["fatimah-bint-qays", "amir-al-shabi", "mujalid-ibn-said", "ismail-ibn-abi-khalid", "al-mutamir-ibn-sulayman", "muhammad-ibn-sudran", "abu-dawud"],
+          "isnad_raw": "حدثنا محمد بن صدران، حدثنا المعتمر، حدثنا إسماعيل بن أبي خالد، عن مجالد بن سعيد، عن عامر، قال حدثتني فاطمة بنت قيس",
+          "matn_raw": "أن النبي صلى الله عليه وسلم صلى الظهر ثم صعد المنبر، وكان لا يصعد عليه إلا يوم جمعة قبل يومئذ، ثم ذكر هذه القصة.",
+          "collector_note": "Abbreviated witness of the Mujalid route; Abu Dawud adds a biographical note that Ibn Sudran drowned at sea and was the sole survivor.",
+          "provenance": {"printed_edition": "Sunan Abi Dawud, Kitab al-Malahim, Bab fi khabar al-Jassasah, 4327", "transmission_path": "https://sunnah.com/abudawud:4327"}
+        },
+        {
+          "variant_id": "jass-nasai-kubra-4453-dawud-route",
+          "isnad_chain": ["fatimah-bint-qays", "amir-al-shabi", "dawud-ibn-abi-hind", "hammad-ibn-salama", "al-hajjaj-ibn-muhammad", "muhammad-ibn-al-muthanna", "al-nasai"],
+          "isnad_raw": "أخبرنا محمد بن المثنى، عن الحجاج، قال حدثنا حماد، قال أخبرنا داود بن أبي هند، عن الشعبي، عن فاطمة بنت قيس",
+          "matn_raw": "إن ناسا من أهل فلسطين ركبوا البحر فقذفتهم الريح إلى جزيرة ... فإذا هم بدابة أشعر لا يدرى أذكر هو أم أنثى ... قالت أنا الجساسة ... ثم سأل عن بعث النبي واتباع العرب، وعن فارس، وعين زغر، وبحيرة طبرية، ونخل بيسان ... فقال أنا الدجال.",
+          "collector_note": "Nasai al-Kubra numbering 4453 in the consulted Islamweb text; another takhrij source identifies a related report as 4258. Verify numbering against the chosen printed edition.",
+          "provenance": {"printed_edition": "al-Sunan al-Kubra lil-Nasai, Kitab al-Manasik, 4453 (consulted digital numbering)", "transmission_path": "https://www.islamweb.net/ar/library/content/406/4489/دور-مكة"}
+        },
+        {
+          "variant_id": "jass-ahmad-27102-dawud-route",
+          "isnad_chain": ["fatimah-bint-qays", "amir-al-shabi", "dawud-ibn-abi-hind", "hammad-ibn-salama", "affan-ibn-muslim", "ahmad-ibn-hanbal"],
+          "isnad_raw": "حدثنا عفان، حدثنا حماد بن سلمة، قال أخبرنا داود، عن عامر، عن فاطمة بنت قيس",
+          "matn_raw": "ولكن تميما الداري أخبرني أن ناسا من أهل فلسطين ركبوا البحر فقذفتهم الريح إلى جزيرة ... فإذا هم بدابة أشعر لا يدرى أذكر أم أنثى من كثرة شعره ... ثم سأل عن فارس وعين زغر وبحيرة طبرية ونخل بيسان ... هذه طيبة لا يدخلها الدجال.",
+          "collector_note": "Same lower route as Nasai 4453, with a separate collector path. Number 27102 is used in al-Risalah/takhrij numbering; an older online source labels a parallel passage 26066.",
+          "provenance": {"printed_edition": "Musnad Ahmad, Musnad Fatimah bint Qays, 27102 (al-Risalah/takhrij numbering)", "transmission_path": "https://dorar.net/h/1NZ7DS1X?osoul=1"}
+        },
+        {
+          "variant_id": "jass-ibn-abi-shaybah-40425-mujalid-route",
+          "isnad_chain": ["fatimah-bint-qays", "amir-al-shabi", "mujalid-ibn-said", "hammad-ibn-usama", "ibn-abi-shaybah"],
+          "isnad_raw": "حدثنا أبو أسامة، قال حدثنا مجالد، قال أخبرنا عامر، قال أخبرتني فاطمة ابنة قيس",
+          "matn_raw": "ولكن تميما الداري أتاني فأخبرني خبرا منعني القيلولة من الفرح وقرة العين ... أخبرني أن رهطا من بني عمه ركبوا البحر ... فإذا هم بشيء أسود أهدب كثير الشعر ... قالت أنا الجساسة ... فما فعلت العرب؟ ... فما فعلت عين زغر؟ ... وما فعل نخل بين عمان وبيسان؟ ... وما فعلت بحيرة الطبرية؟",
+          "collector_note": "The cousin/kinsmen branch, with a different opening and question order from the Ibn Majah witness; retain as a separate textual witness.",
+          "provenance": {"printed_edition": "Musannaf Ibn Abi Shaybah, Kitab al-Fitan, 40425", "transmission_path": "https://islamicurdubooks.com/hadith/hadith-.php?bookid=33&hadith_number=40425"}
+        },
+        {
+          "variant_id": "jass-ibn-hibban-6787-yahya-route",
+          "isnad_chain": ["fatimah-bint-qays", "yahya-ibn-yamar", "abd-allah-ibn-buraydah", "kahmas-ibn-al-hasan", "awn-ibn-kahmas", "al-fadl-ibn-musa", "harun-ibn-isa-ibn-al-sikkim", "ibn-hibban"],
+          "isnad_raw": "أخبرنا هارون بن عيسى بن السكين، حدثنا الفضل بن موسى، حدثنا عون بن كهْمس، حدثني أبي، عن عبد الله بن بريدة، عن يحيى بن يعمر أنه قال لفاطمة بنت قيس",
+          "matn_raw": "ولكن حديث حدثنيه تميم الداري زعم أنه ركب البحر في ثلاثين رجلا من لخم وجذام ... فلقيتنا جارية تجر شعرها لا ندري مقبلة هي أم مدبرة ... قالت أنا الجساسة ... أخبروني عن نخل بيسان ... وعن عين زغر ... وعن هذا الرجل هل خرج؟ قالوا نعم قال إنه صادق فاتبعوه ... من أنت؟ قال أنا الدجال.",
+          "collector_note": "Distinct route through Yahya ibn Ya'mar. Text is abbreviated relative to Muslim's long witness and includes an extra, partly unremembered phrase about the earth being folded for the Dajjal.",
+          "provenance": {"printed_edition": "Sahih Ibn Hibban, Kitab al-Tarikh, 6787", "transmission_path": "https://www.islamweb.net/ar/library/content/314/6795/ذكر-الإخبار-عن-وصف-العلامتين-اللتين-تظهران-عند-خروج-المسيح-الدجال-من-وثاقه"}
+        }
+      ],
+      "matn_raw": null,
+      "reliability_evidence": []
+    },
+    {
+      "hadith_id": "jassasah-jabir-report",
+      "family_id": "jassasah-tamim-family",
+      "title": "Jassasah narrative (Jabir ibn Abd Allah route)",
+      "source_ref": {
+        "collection": "Sunan Abi Dawud",
+        "source_type": "url",
+        "source_locator": "Kitab al-Malahim, Bab fi khabar al-Jassasah, 4328; https://sunnah.com/abudawud:4328",
+        "ingested_at": "2026-10-26T21:00:00+05:00",
+        "parser_version": "manual-transcription-1",
+        "checksum": null
+      },
+      "variants": [
+        {
+          "variant_id": "jass-abudawud-4328-jabir-route",
+          "isnad_chain": ["jabir-ibn-abd-allah", "abu-salama-ibn-abd-al-rahman", "al-walid-ibn-abd-allah-ibn-jumay", "muhammad-ibn-fudayl", "wasil-ibn-abd-al-ala", "abu-dawud"],
+          "isnad_raw": "حدثنا واصل بن عبد الأعلى، أخبرنا ابن فضيل، عن الوليد بن عبد الله بن جميع، عن أبي سلمة بن عبد الرحمن، عن جابر",
+          "matn_raw": "إنه بينما أناس يسيرون في البحر فنفد طعامهم، فرفعت لهم جزيرة فخرجوا يريدون الخبز فلقيتهم الجساسة. قلت لأبي سلمة: وما الجساسة؟ قال: امرأة تجر شعر جلدها ورأسها. قالت: في هذا القصر. فذكر الحديث وسأل عن نخل بيسان وعن عين زغر، قال: هو المسيح... قال: شهد جابر أنه هو ابن صياد.",
+          "collector_note": "Separate companion route, not a Fāṭimah transmission. Abu Dawud's displayed grading on Sunnah.com is weak in chain; retain that as source metadata for later review rather than as a Riwaq reliability judgment.",
+          "provenance": {"printed_edition": "Sunan Abi Dawud, Kitab al-Malahim, Bab fi khabar al-Jassasah, 4328", "transmission_path": "https://sunnah.com/abudawud:4328"}
+        }
+      ],
+      "matn_raw": null,
+      "reliability_evidence": []
+    }
+  ],
+  "narrators": [
+    {"narrator_id":"fatimah-bint-qays","names":["Fatimah bint Qays","فاطمة بنت قيس"],"aliases":[],"locations":[],"tags":["companion"]},
+    {"narrator_id":"amir-al-shabi","names":["Amir ibn Sharahil al-Sha'bi","عامر بن شراحيل الشعبي"],"aliases":["al-Sha'bi","الشعبي"],"locations":[],"tags":[]},
+    {"narrator_id":"abd-allah-ibn-buraydah","names":["Abd Allah ibn Buraydah","عبد الله بن بريدة"],"aliases":[],"locations":[],"tags":[]},
+    {"narrator_id":"husayn-ibn-dhakwan","names":["Husayn ibn Dhakwan al-Mu'allim","حسين بن ذكوان المعلم"],"aliases":["Husayn al-Mu'allim"],"locations":[],"tags":[]},
+    {"narrator_id":"abd-al-warith-ibn-said","names":["Abd al-Warith ibn Sa'id","عبد الوارث بن سعيد"],"aliases":[],"locations":[],"tags":[]},
+    {"narrator_id":"abd-al-samad-ibn-abd-al-warith","names":["Abd al-Samad ibn Abd al-Warith","عبد الصمد بن عبد الوارث"],"aliases":[],"locations":[],"tags":[]},
+    {"narrator_id":"abd-al-warith-ibn-abd-al-samad","names":["Abd al-Warith ibn Abd al-Samad","عبد الوارث بن عبد الصمد"],"aliases":[],"locations":[],"tags":[]},
+    {"narrator_id":"hajjaj-ibn-al-shair","names":["Hajjaj ibn al-Sha'ir","حجاج بن الشاعر"],"aliases":[],"locations":[],"tags":[]},
+    {"narrator_id":"sayyar-abu-al-hakam","names":["Sayyar Abu al-Hakam","سيار أبو الحكم"],"aliases":[],"locations":[],"tags":[]},
+    {"narrator_id":"qurra-ibn-khalid","names":["Qurrah ibn Khalid","قرة بن خالد"],"aliases":[],"locations":[],"tags":[]},
+    {"narrator_id":"khalid-ibn-al-harith","names":["Khalid ibn al-Harith al-Hujaymi","خالد بن الحارث الهجيمي"],"aliases":[],"locations":[],"tags":[]},
+    {"narrator_id":"yahya-ibn-habib-al-harithi","names":["Yahya ibn Habib al-Harithi","يحيى بن حبيب الحارثي"],"aliases":[],"locations":[],"tags":[]},
+    {"narrator_id":"ghaylan-ibn-jarir","names":["Ghaylan ibn Jarir","غيلان بن جرير"],"aliases":[],"locations":[],"tags":[]},
+    {"narrator_id":"jarir-ibn-hazim","names":["Jarir ibn Hazim","جرير بن حازم"],"aliases":[],"locations":[],"tags":[]},
+    {"narrator_id":"wahb-ibn-jarir","names":["Wahb ibn Jarir","وهب بن جرير"],"aliases":[],"locations":[],"tags":[]},
+    {"narrator_id":"hasan-ibn-ali-al-hulwani","names":["al-Hasan ibn Ali al-Hulwani","الحسن بن علي الحلواني"],"aliases":[],"locations":[],"tags":[]},
+    {"narrator_id":"ahmad-ibn-uthman-al-nawfali","names":["Ahmad ibn Uthman al-Nawfali","أحمد بن عثمان النوفلي"],"aliases":[],"locations":[],"tags":[]},
+    {"narrator_id":"abu-al-zinad","names":["Abu al-Zinad Abd Allah ibn Dhakwan","أبو الزناد عبد الله بن ذكوان"],"aliases":[],"locations":[],"tags":[]},
+    {"narrator_id":"mughira-al-hizami","names":["al-Mughira al-Hizami","المغيرة الحزامي"],"aliases":[],"locations":[],"tags":[]},
+    {"narrator_id":"yahya-ibn-bukayr","names":["Yahya ibn Bukayr","يحيى بن بكير"],"aliases":[],"locations":[],"tags":[]},
+    {"narrator_id":"abu-bakr-ibn-ishaq","names":["Abu Bakr ibn Ishaq","أبو بكر بن إسحاق"],"aliases":[],"locations":[],"tags":[]},
+    {"narrator_id":"muslim-ibn-al-hajjaj","names":["Muslim ibn al-Hajjaj","مسلم بن الحجاج"],"aliases":["Muslim"],"locations":[],"tags":["collector"]},
+    {"narrator_id":"abu-salama-ibn-abd-al-rahman","names":["Abu Salamah ibn Abd al-Rahman","أبو سلمة بن عبد الرحمن"],"aliases":[],"locations":[],"tags":[]},
+    {"narrator_id":"muhammad-al-zuhri","names":["Muhammad ibn Shihab al-Zuhri","محمد بن شهاب الزهري"],"aliases":["Ibn Shihab","ابن شهاب"],"locations":[],"tags":[]},
+    {"narrator_id":"muhammad-ibn-abd-al-rahman-ibn-abi-dhib","names":["Muhammad ibn Abd al-Rahman ibn Abi Dhi'b","محمد بن عبد الرحمن بن أبي ذئب"],"aliases":["Ibn Abi Dhi'b"],"locations":[],"tags":[]},
+    {"narrator_id":"uthman-ibn-abd-al-rahman","names":["Uthman ibn Abd al-Rahman","عثمان بن عبد الرحمن"],"aliases":[],"locations":[],"tags":[]},
+    {"narrator_id":"al-nufayli","names":["Abd Allah ibn Muhammad al-Nufayli","عبد الله بن محمد النفيلي"],"aliases":["al-Nufayli"],"locations":[],"tags":[]},
+    {"narrator_id":"abu-dawud","names":["Abu Dawud Sulayman ibn al-Ash'ath","أبو داود سليمان بن الأشعث"],"aliases":[],"locations":[],"tags":["collector"]},
+    {"narrator_id":"hajjaj-ibn-abi-yacqub","names":["Hajjaj ibn Abi Ya'qub","حجاج بن أبي يعقوب"],"aliases":[],"locations":[],"tags":[]},
+    {"narrator_id":"qatada-ibn-diamah","names":["Qatadah ibn Di'amah","قتادة بن دعامة"],"aliases":["Qatadah"],"locations":[],"tags":[]},
+    {"narrator_id":"hisham-al-dastawai","names":["Hisham al-Dastawa'i","هشام الدستوائي"],"aliases":[],"locations":[],"tags":[]},
+    {"narrator_id":"muadh-ibn-hisham","names":["Mu'adh ibn Hisham","معاذ بن هشام"],"aliases":[],"locations":[],"tags":[]},
+    {"narrator_id":"muhammad-ibn-bashshar","names":["Muhammad ibn Bashshar","محمد بن بشار"],"aliases":["Bundar"],"locations":[],"tags":[]},
+    {"narrator_id":"al-tirmidhi","names":["Abu Isa Muhammad al-Tirmidhi","أبو عيسى محمد الترمذي"],"aliases":[],"locations":[],"tags":["collector"]},
+    {"narrator_id":"mujalid-ibn-said","names":["Mujalid ibn Sa'id","مجالد بن سعيد"],"aliases":[],"locations":[],"tags":[]},
+    {"narrator_id":"ismail-ibn-abi-khalid","names":["Isma'il ibn Abi Khalid","إسماعيل بن أبي خالد"],"aliases":[],"locations":[],"tags":[]},
+    {"narrator_id":"abd-allah-ibn-numayr","names":["Abd Allah ibn Numayr","عبد الله بن نمير"],"aliases":[],"locations":[],"tags":[]},
+    {"narrator_id":"muhammad-ibn-abd-allah-ibn-numayr","names":["Muhammad ibn Abd Allah ibn Numayr","محمد بن عبد الله بن نمير"],"aliases":[],"locations":[],"tags":[]},
+    {"narrator_id":"ibn-majah","names":["Ibn Majah Muhammad ibn Yazid","ابن ماجه محمد بن يزيد"],"aliases":[],"locations":[],"tags":["collector"]},
+    {"narrator_id":"dawud-ibn-abi-hind","names":["Dawud ibn Abi Hind","داود بن أبي هند"],"aliases":[],"locations":[],"tags":[]},
+    {"narrator_id":"hammad-ibn-salama","names":["Hammad ibn Salamah","حماد بن سلمة"],"aliases":[],"locations":[],"tags":[]},
+    {"narrator_id":"al-hajjaj-ibn-muhammad","names":["al-Hajjaj ibn Muhammad","الحجاج بن محمد"],"aliases":[],"locations":[],"tags":[]},
+    {"narrator_id":"muhammad-ibn-al-muthanna","names":["Muhammad ibn al-Muthanna","محمد بن المثنى"],"aliases":[],"locations":[],"tags":[]},
+    {"narrator_id":"al-nasai","names":["Ahmad ibn Shu'ayb al-Nasa'i","أحمد بن شعيب النسائي"],"aliases":[],"locations":[],"tags":["collector"]},
+    {"narrator_id":"affan-ibn-muslim","names":["Affan ibn Muslim","عفان بن مسلم"],"aliases":[],"locations":[],"tags":[]},
+    {"narrator_id":"ahmad-ibn-hanbal","names":["Ahmad ibn Hanbal","أحمد بن حنبل"],"aliases":[],"locations":[],"tags":["collector"]},
+    {"narrator_id":"hammad-ibn-usama","names":["Hammad ibn Usamah Abu Usamah","حماد بن أسامة أبو أسامة"],"aliases":["Abu Usamah"],"locations":[],"tags":[]},
+    {"narrator_id":"ibn-abi-shaybah","names":["Ibn Abi Shaybah","ابن أبي شيبة"],"aliases":[],"locations":[],"tags":["collector"]},
+    {"narrator_id":"yahya-ibn-yamar","names":["Yahya ibn Ya'mar","يحيى بن يعمر"],"aliases":[],"locations":[],"tags":[]},
+    {"narrator_id":"kahmas-ibn-al-hasan","names":["Kahmas ibn al-Hasan","كهْمس بن الحسن"],"aliases":[],"locations":[],"tags":[]},
+    {"narrator_id":"awn-ibn-kahmas","names":["Awn ibn Kahmas","عون بن كهْمس"],"aliases":[],"locations":[],"tags":[]},
+    {"narrator_id":"al-fadl-ibn-musa","names":["al-Fadl ibn Musa","الفضل بن موسى"],"aliases":[],"locations":[],"tags":[]},
+    {"narrator_id":"harun-ibn-isa-ibn-al-sikkim","names":["Harun ibn Isa ibn al-Sikkīn","هارون بن عيسى بن السكين"],"aliases":[],"locations":[],"tags":[]},
+    {"narrator_id":"ibn-hibban","names":["Ibn Hibban Muhammad ibn Hibban","ابن حبان محمد بن حبان"],"aliases":[],"locations":[],"tags":["collector"]}
+    ,{"narrator_id":"al-mutamir-ibn-sulayman","names":["al-Mu'tamir ibn Sulayman","المعتمر بن سليمان"],"aliases":[],"locations":[],"tags":[]}
+    ,{"narrator_id":"muhammad-ibn-sudran","names":["Muhammad ibn Sudran","محمد بن صدران"],"aliases":["Ibn Sudran"],"locations":[],"tags":[]}
+    ,{"narrator_id":"jabir-ibn-abd-allah","names":["Jabir ibn Abd Allah","جابر بن عبد الله"],"aliases":[],"locations":[],"tags":["companion"]}
+    ,{"narrator_id":"al-walid-ibn-abd-allah-ibn-jumay","names":["al-Walid ibn Abd Allah ibn Jumay'","الوليد بن عبد الله بن جميع"],"aliases":[],"locations":[],"tags":[]}
+    ,{"narrator_id":"muhammad-ibn-fudayl","names":["Muhammad ibn Fudayl","محمد بن فضيل"],"aliases":["Ibn Fudayl"],"locations":[],"tags":[]}
+    ,{"narrator_id":"wasil-ibn-abd-al-ala","names":["Wasil ibn Abd al-A'la","واصل بن عبد الأعلى"],"aliases":[],"locations":[],"tags":[]}
+  ]
+}

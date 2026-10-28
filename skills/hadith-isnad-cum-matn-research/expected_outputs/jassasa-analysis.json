@@ -1,0 +1,112 @@
+{
+  "ok": true,
+  "command": "analyze",
+  "file": "/home/meer/ai-tools/masar-riwaq-skills/evaluations/fixtures/jassasa-seed.json",
+  "data": {
+    "family_status": "cl_detected",
+    "profile": "structural_only",
+    "candidate_count": 3,
+    "candidates": [
+      {
+        "narrator_id": "amir-al-shabi",
+        "candidate_type": "common_link",
+        "structural_score": 0.605625,
+        "final_confidence": 0.605625,
+        "display_confidence_4dp": 0.6056,
+        "outcome": "contested",
+        "contradiction_cap_active": false,
+        "profile": "structural_only",
+        "matn_coherence_basis": "default_constant_unmeasured",
+        "features": {
+          "fan_out": 7,
+          "bundle_coverage": 0.8125,
+          "collector_diversity": 7,
+          "pre_single_strand_ratio": 0,
+          "bypass_ratio": 0.0625,
+          "chronology_conflict_ratio": 0,
+          "matn_coherence": 0.5,
+          "provenance_completeness_ratio": 1
+        },
+        "subscores": {
+          "S1": 0.8,
+          "S2": 0.8125,
+          "S3": 0.833333333333,
+          "S4": 0,
+          "S5": 0.5,
+          "P1": 0.0625,
+          "P2": 0,
+          "P3": 0
+        },
+        "reliability_prior": null,
+        "_family_id": "jassasah-tamim-family"
+      },
+      {
+        "narrator_id": "fatimah-bint-qays",
+        "candidate_type": "common_link",
+        "structural_score": 0.434375,
+        "final_confidence": 0.434375,
+        "display_confidence_4dp": 0.4344,
+        "outcome": "uncertain",
+        "contradiction_cap_active": false,
+        "profile": "structural_only",
+        "matn_coherence_basis": "default_constant_unmeasured",
+        "features": {
+          "fan_out": 3,
+          "bundle_coverage": 0.9375,
+          "collector_diversity": 8,
+          "pre_single_strand_ratio": 0,
+          "bypass_ratio": 0,
+          "chronology_conflict_ratio": 0,
+          "matn_coherence": 0.5,
+          "provenance_completeness_ratio": 1
+        },
+        "subscores": {
+          "S1": 0,
+          "S2": 0.9375,
+          "S3": 1,
+          "S4": 0,
+          "S5": 0.5,
+          "P1": 0,
+          "P2": 0,
+          "P3": 0
+        },
+        "reliability_prior": null,
+        "_family_id": "jassasah-tamim-family"
+      },
+      {
+        "narrator_id": "abd-allah-ibn-buraydah",
+        "candidate_type": "partial_common_link",
+        "pcl_mode": "cl_anchored",
+        "structural_score": 0.0875,
+        "final_confidence": 0.0875,
+        "display_confidence_4dp": 0.0875,
+        "outcome": "likely_weak_in_context",
+        "contradiction_cap_active": false,
+        "profile": "structural_only",
+        "matn_coherence_basis": "default_constant_unmeasured",
+        "features": {
+          "fan_out": 2,
+          "bundle_coverage": 0.25,
+          "collector_diversity": 3,
+          "pre_single_strand_ratio": 0.125,
+          "bypass_ratio": 0.375,
+          "chronology_conflict_ratio": 0,
+          "matn_coherence": 0.5,
+          "provenance_completeness_ratio": 1
+        },
+        "subscores": {
+          "S1": 0,
+          "S2": 0.25,
+          "S3": 0.166666666667,
+          "S4": 0.125,
+          "S5": 0.5,
+          "P1": 0.375,
+          "P2": 0,
+          "P3": 0
+        },
+        "reliability_prior": null,
+        "_family_id": "jassasah-tamim-family"
+      }
+    ]
+  }
+}

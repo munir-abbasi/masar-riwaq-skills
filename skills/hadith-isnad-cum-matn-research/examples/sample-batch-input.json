@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "imported_at": "2026-10-28T18:00:00Z",
+  "import_id": "example-sample-batch",
+  "source_batch_ref": "Sample two-witness batch for testing and documentation",
+  "records": [
+    {
+      "hadith_id": "rec_sample_01",
+      "family_id": "fam_sample_niyyah",
+      "title": "Niyyah Tradition Sample",
+      "source_ref": {
+        "collection": "Sahih al-Bukhari",
+        "source_type": "print",
+        "source_locator": "Kitab Bad al-Wahy #1",
+        "ingested_at": "2026-10-28T18:00:00Z"
+      },
+      "variants": [
+        {
+          "variant_id": "var_bukhari_1",
+          "isnad_chain": ["umar_ibn_al_khattab", "alqama_ibn_waqqas", "muhammad_ibn_ibrahim", "yahya_ibn_said", "sufyan_ibn_uyaynah", "al_humaydi", "al_bukhari"],
+          "isnad_raw": "حدثنا الحميدي حدثنا سفيان حدثنا يحيى بن سعيد عن محمد بن إبراهيم عن علقمة بن وقاص عن عمر بن الخطاب",
+          "matn_raw": "إنما الأعمال بالنيات وإنما لكل امرئ ما نوى فمن كانت هجرته إلى دنيا يصيبها أو إلى امرأة ينكحها فهجرته إلى ما هاجر إليه",
+          "collector_note": "Canonical witness #1"
+        }
+      ]
+    }
+  ]
+}

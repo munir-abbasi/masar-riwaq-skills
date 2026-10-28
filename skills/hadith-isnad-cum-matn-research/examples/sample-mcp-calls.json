@@ -1,0 +1,57 @@
+{
+  "description": "Sample Model Context Protocol (MCP) JSON-RPC 2.0 tool calls for Masar and Riwaq",
+  "samples": [
+    {
+      "server": "masar-mcp",
+      "method": "tools/call",
+      "params": {
+        "name": "masar_search",
+        "arguments": {
+          "seed": "فلقيتهم دابة أهلب كثير الشعر",
+          "scope": "all",
+          "limit": 10
+        }
+      }
+    },
+    {
+      "server": "masar-mcp",
+      "method": "tools/call",
+      "params": {
+        "name": "masar_adjust_split",
+        "arguments": {
+          "hadith_id": "muslim_2942a",
+          "start": 142,
+          "end": 285
+        }
+      }
+    },
+    {
+      "server": "riwaq-mcp",
+      "method": "tools/call",
+      "params": {
+        "name": "riwaq_analyze",
+        "arguments": {
+          "filePath": "evaluations/fixtures/jassasa-seed.json",
+          "profile": "structural_only",
+          "withReliability": false
+        }
+      }
+    },
+    {
+      "server": "riwaq-mcp",
+      "method": "tools/call",
+      "params": {
+        "name": "riwaq_stage_proposal",
+        "arguments": {
+          "filePath": "evaluations/fixtures/homonym-trap.json",
+          "type": "PROPOSAL_NARRATOR_SPLIT",
+          "payload": {
+            "sourceId": "hammad",
+            "splitTargets": ["hammad_ibn_salamah", "hammad_ibn_zayd"]
+          },
+          "rationale": "Transmitter disambiguation based on pupil correlations"
+        }
+      }
+    }
+  ]
+}

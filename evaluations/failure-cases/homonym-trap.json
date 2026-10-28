@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "imported_at": "2026-10-28T18:00:00Z",
+  "import_id": "eval-failure-homonym-trap",
+  "source_batch_ref": "Adversarial test fixture for transmitter homonym collision detection",
+  "records": [
+    {
+      "hadith_id": "rec_homonym_trap",
+      "family_id": "fam_homonym_test",
+      "title": "Adversarial Homonym Collision (Bare 'Hammad')",
+      "source_ref": {
+        "collection": "Synthetic Test Fixture",
+        "source_type": "print",
+        "source_locator": "Test Fixture #1",
+        "ingested_at": "2026-10-28T18:00:00Z"
+      },
+      "variants": [
+        {
+          "variant_id": "var_hammad_salamah_branch",
+          "isnad_chain": ["companion_a", "tabii_b", "hammad", "affan_ibn_muslim", "collector_x"],
+          "isnad_raw": "حدثنا collector_x حدثنا عفان حدثنا حماد عن تابعي عن صحابي",
+          "matn_raw": "نص الحديث التجريبي الأول بدون تلبيس",
+          "collector_note": "Historian note: Hammad here is Hammad ibn Salamah (d. 167 AH) transmitting to Affan."
+        },
+        {
+          "variant_id": "var_hammad_zayd_branch",
+          "isnad_chain": ["companion_a", "tabii_c", "hammad", "sulayman_ibn_harb", "collector_y"],
+          "isnad_raw": "حدثنا collector_y حدثنا سليمان بن حرب حدثنا حماد عن تابعي آخر عن صحابي",
+          "matn_raw": "نص الحديث التجريبي الثاني بلفظ متقارب",
+          "collector_note": "Historian note: Hammad here is Hammad ibn Zayd (d. 179 AH) transmitting to Sulayman."
+        }
+      ]
+    }
+  ],
+  "expected_failure": {
+    "trap_type": "HOMONYM_COLLISION",
+    "ambiguous_identifier": "hammad",
+    "required_agent_behavior": "Refuse automatic merge. Stage PROPOSAL_NARRATOR_SPLIT into 'hammad_ibn_salamah' and 'hammad_ibn_zayd' with biographical rationale."
+  }
+}

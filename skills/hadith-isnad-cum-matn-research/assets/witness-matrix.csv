@@ -1,0 +1,3 @@
+hadith_id,collection,hadith_number,sect,source_locator,isnad_depth,matn_len_chars,boundary_status,verified_by
+bukhari_1,Sahih al-Bukhari,1,sunni,Kitab Bad al-Wahy #1,6,182,VERIFIED,human_expert
+muslim_1907,Sahih Muslim,1907,sunni,Kitab al-Imarah #155,7,195,VERIFIED,human_expert

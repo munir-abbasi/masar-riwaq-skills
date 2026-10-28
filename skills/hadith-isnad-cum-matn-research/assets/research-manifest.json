@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "HadithResearchManifest",
+  "version": "1.0.0",
+  "tradition_id": "tradition_sample",
+  "title_ar": "حديث الأعمال بالنيات",
+  "title_en": "The Actions by Intentions Tradition",
+  "created_at": "2026-10-28T18:00:00Z",
+  "orchestrator_version": "hadith-isnad-cum-matn-research-1.0",
+  "tools": {
+    "masar_version": "1.0.0",
+    "riwaq_version": "1.2.0"
+  },
+  "provenance": {
+    "corpus_db_hash": "",
+    "curated_db_hash": "",
+    "riwaq_batch_hash": ""
+  },
+  "gates": {
+    "gate_1_scope_approved": true,
+    "gate_2_boundaries_approved": true,
+    "gate_3_identities_approved": true,
+    "gate_4_publication_approved": false
+  },
+  "analysis_summary": {
+    "family_id": "fam_sample",
+    "witness_count": 0,
+    "cl_candidate": null,
+    "pcl_candidates": [],
+    "textual_coherence": "unmeasured"
+  }
+}
